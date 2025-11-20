@@ -1,4 +1,4 @@
-module alu (
+module alu.v (
 
   input [3:0] A, B,
   input [3:0] opcode,
