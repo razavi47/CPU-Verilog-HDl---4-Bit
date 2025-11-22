@@ -2,7 +2,7 @@ module alu (
     input  [3:0] A, 
     input  [3:0] B,
     input  [3:0] opcode,
-    input        alu_en,
+    input alu_en,
     output reg [3:0] result,
     output reg zero_flag,
     output reg negative_flag,
