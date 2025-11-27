@@ -2,4 +2,8 @@ A custom 4-bit CPU I designed and implemented using Verilog HDL. This project de
 
 The 4-Bit CPU is capable of running a small instruction for basic operations such as arithmetic, bitwise logic, jumps or branches, and even halting. Instructions are loaded into the instruction register, decoded, and fully processed in the ALU, then stored or forwarded based on the control path for future inputs. I've included a testbench for each module, including simulation so waveforms and internal signals can be inspected to verify correct CPU behavior for each seperate functionality. This design was simulated using tools such as Verilog HDL, Quartus, and ModelSim for visual output.
 
+<img width="1151" height="512" alt="Screenshot 2025-11-27 at 10 15 32 AM" src="https://github.com/user-attachments/assets/bf826634-20f1-4c3a-9345-0aa647ba4c50" />
+
+
+
 This project was a foundation for learning computer architecture and digital design at the HDL level. Being only a 4-Bit cpu, with relatively low complexity, it was crucial to learn and understand fundementals of Verilog, with potential future upgrades like expanding the CPU to 8 bits, adding more instructions, implementing pipelining, creating a memory-mapped I/O, or even synthesizing the design onto an FPGA to run real programs.
